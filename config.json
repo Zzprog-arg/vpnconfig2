@@ -1,0 +1,21 @@
+{
+  "name": "VPN Configuration",
+  "version": "1.0.0",
+  "vpn": {
+    "protocol": "tcp",
+    "host": "vpn.example.com",
+    "port": 443,
+    "cipher": "AES-256-CBC",
+    "auth": "SHA256"
+  },
+  "certificates": {
+    "ca": "ca.crt",
+    "cert": "client.crt",
+    "key": "client.key"
+  },
+  "settings": {
+    "reconnect": true,
+    "reconnect_wait": 5,
+    "verb": 3
+  }
+}
