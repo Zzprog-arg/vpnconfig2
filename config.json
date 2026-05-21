@@ -1,21 +1,8 @@
 {
-  "name": "VPN Configuration",
-  "version": "1.0.0",
-  "vpn": {
-    "protocol": "tcp",
-    "host": "vpn.example.com",
-    "port": 443,
-    "cipher": "AES-256-CBC",
-    "auth": "SHA256"
-  },
-  "certificates": {
-    "ca": "ca.crt",
-    "cert": "client.crt",
-    "key": "client.key"
-  },
-  "settings": {
-    "reconnect": true,
-    "reconnect_wait": 5,
-    "verb": 3
-  }
+  "version": 8,
+  "ovpn_url": "https://raw.githubusercontent.com/Zzprog-arg/vpnconfig2/refs/heads/main/VPNVIP.ovpn",
+  "bg_url": "https://raw.githubusercontent.com/parceunlock/vpn/main/parce_bg2.jpg",
+  "apk_version": 223,
+  "apk_url": "https://github.com/parceunlock/vpn/releases/download/APK/PARCEVPNVIP1.5.apk",
+  "changelog": "Mejoras de conexión"
 }
